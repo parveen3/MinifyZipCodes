@@ -91,8 +91,8 @@ public class ZipCodeValidator {
 		return list;
 	}
 
+	//main method to run this program
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		ZipCodeValidator zip = new ZipCodeValidator();
 		List<ZipRange> data = zip.minifyZipRanges(getZipCodes());
 
